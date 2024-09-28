@@ -672,12 +672,7 @@ img {
 }
 
 .close-btn-icon:hover,
-.close-btn-icon:focus {
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-}
-
+.close-btn-icon:focus,
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
@@ -685,8 +680,8 @@ img {
   fill: #ffffff;
 }
 
-.close-btn-icon:hover + .modal-close-btn,
-.close-btn-icon:focus + .modal-close-btn {
+.close-btn-icon:hover .close-btn-icon,
+.close-btn-icon:focus .close-btn-icon {
   fill: #ffffff;
 } 
 
