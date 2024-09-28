@@ -680,8 +680,8 @@ img {
   fill: #ffffff;
 }
 
-.close-btn-icon:hover .close-btn-icon,
-.close-btn-icon:focus .close-btn-icon {
+.modal-close-btn:hover .close-btn-icon,
+.modal-close-btn:focus .close-btn-icon {
   fill: #ffffff;
 } 
 
