@@ -663,8 +663,7 @@ img {
   height: 24px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn-icon {
@@ -686,8 +685,8 @@ img {
   fill: #ffffff;
 }
 
-.close-btn-icon:hover .modal-close-btn,
-.close-btn-icon:focus .modal-close-btn {
+.close-btn-icon:hover + .modal-close-btn,
+.close-btn-icon:focus + .modal-close-btn {
   fill: #ffffff;
 } 
 
